@@ -34,9 +34,11 @@
       <% end %>
   </tbody>
 </table>
+<%= paginate @artists %>
 <%= link_to 'Add a New Artist', new_artist_path %>
 <%= link_to 'View Art', arts_path %>
-< br/>
+<br />
+<%= link_to 'Github Repository', 'https://github.com/BenEdick/Artsy/tree/master/Artsy' %>
 
 
 
